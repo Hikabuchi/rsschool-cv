@@ -19,4 +19,5 @@ for(int i = 0; i < mas.Length; i++)
 }
  ```
 # Work experience
+no
 # Education
