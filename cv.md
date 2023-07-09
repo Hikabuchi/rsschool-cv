@@ -1,13 +1,13 @@
 # Demchuk Tatiana
-# Contact information:
+## Contact information:
 Phone: +79969329782
-# Aabout me
+## Aabout me
 I'm still just studying, and I plan to work as a web developer in the future.
-# Skills
+## Skills
 * C#
 * JavaScript
 * Figma
-# Code
+## Code
 ```string s=Convert.ToString(Console.ReadLine()); 
 string[] mas = { "ff", "sf", "jj","ff" }; 
 for(int i = 0; i < mas.Length; i++) 
@@ -18,7 +18,7 @@ for(int i = 0; i < mas.Length; i++)
     } 
 }
  ```
-# Work experience
+## Work experience
 no
-# Education
+## Education
 no
