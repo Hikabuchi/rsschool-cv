@@ -1,9 +1,9 @@
 # Demchuk Tatiana
 ## Contact information:
-Phone: +79969329782
-Mail: tanya_demchuk_isvp@mail.ru
-Discord: hikabuchi
-GitHub: Hikabuchi
+* Phone: +79969329782
+* Mail: tanya_demchuk_isvp@mail.ru
+* Discord: hikabuchi
+* GitHub: Hikabuchi
 ## Aabout me
 I'm still just studying, and I plan to work as a web developer in the future.
 ## Skills
