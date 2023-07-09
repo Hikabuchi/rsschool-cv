@@ -1,1 +1,157 @@
-
+@font-face {
+    font-family: 'Roboto';
+    src: url("assets/fonts/Roboto-Thin.ttf");
+    font-weight: 100;
+}
+@font-face {
+    font-family: 'Roboto';
+    src: url("assets/fonts/Roboto-Regular.ttf");
+    font-weight: 300;
+  }
+html {
+    scroll-behavior: smooth;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    background-color: #354C3C;
+    color: #DEA450;
+}
+main{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-size: 18px;
+    background-color: #DEA450;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    background-color: #354C3C;
+}
+h1{
+    font-size: 70px;
+}
+h2{
+   padding: 20px;
+}
+p{
+    padding: 5px;
+}
+.naw-menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+}
+.container {
+    max-width: 950px;
+    width: 100%;
+}
+.naw-menu a{
+    color: #DEA450;
+    text-decoration: none;
+    font-family: ;
+}
+.nav-list{
+    display: flex;
+    list-style: none;
+}
+.nav-link {
+    position: relative;
+    padding: 0 15px;
+    font-weight: 300;
+}
+.profile{
+    display: flex;
+    align-items: center;
+    width: 80%;
+    margin: 40px;
+}
+.profile-image{
+    height: 500px;
+}
+.profile-content{
+    color: #354C3C;
+    margin: 40px;
+}
+.main-Contact_information{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: 30px;
+    color: #354C3C;
+}
+.icon-contact{
+    height: 30px;
+}
+.Contact_information-list{
+    list-style: none;
+}
+.main-about_me{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: 30px;
+    color: #354C3C
+}
+.main-about_me{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: 30px;
+    color: #354C3C
+}
+.main-Skills{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: 30px;
+    color: #354C3C
+}
+.main-Code{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: 30px;
+    color: #354C3C
+}
+pre{
+    background-color: #42354C;
+    color: #DEA450;
+}
+.main-Work_experience{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: 30px;
+    color: #354C3C
+}
+.main-Education{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: 30px;
+    color: #354C3C
+}
+.main-Languages{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: 30px;
+    color: #354C3C
+}
+.footer-span{
+    color: #DEA450;
+}
