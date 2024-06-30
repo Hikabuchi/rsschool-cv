@@ -52,5 +52,8 @@ checkboxes.forEach((checkbox) => {
 There is non-commercial development experience in the center for digital education "it-cube"
 ## Education
 Khakass polytechnic college Specialty - "Information systems and programming" qualification web developer. 3nd year.
+## Languages
+* Russian- native speaker
+* English- A2
 
 
