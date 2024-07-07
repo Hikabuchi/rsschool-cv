@@ -264,3 +264,17 @@ p{
     content: '➤ ';
     color: var(--color3);
 }
+
+.footer{
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    background-color: var(--color2);
+    padding: 40px 90px;
+}
+
+.logo img{
+    width: 150px;
+    margin-right: 30px;
+    height: auto;
+}
