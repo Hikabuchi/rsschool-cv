@@ -61,6 +61,7 @@ p{
 
 .avatar{
     height: 100%;
+    width: auto;
 }
 
 .nav-menu{
@@ -97,4 +98,32 @@ p{
 .bac-1{
     height: 150px;
     width: auto;
+}
+
+#Contacts{
+    padding: 40px 90px;
+    background-color: var(--color2);
+}
+
+.contact-list{
+    margin: 10px 0 0 20px;
+}
+
+.contact-list li{
+    margin: 5px;
+}
+
+.contact-list li a{
+   color: var(--color3);
+   font-family: 'WorkSans', sans-serif;
+   text-decoration: none;
+}
+
+.contact-list li a:hover{
+    color: var(--color4);
+ }
+
+.contact-list li::marker{
+    content: '► ';
+    color: var(--color3);
 }
