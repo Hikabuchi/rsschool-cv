@@ -110,7 +110,7 @@ p{
 }
 
 .contact-list li{
-    margin: 5px;
+    padding: 5px;
 }
 
 .contact-list li a{
@@ -126,4 +126,38 @@ p{
 .contact-list li::marker{
     content: '► ';
     color: var(--color3);
+}
+
+#Skills{
+    padding: 40px 90px;
+    background-color: var(--color2);
+}
+
+.skilst-list{
+    margin: 10px 0 0 20px;
+    font-family: 'WorkSans', sans-serif;
+}
+
+
+.even{
+    padding: 5px;
+    color: var(--color3);
+}
+
+.even:hover{
+    color: var(--color4);
+ }
+
+.skilst-list li::marker{
+    content: '► ';
+    color: var(--color3);
+}
+
+.odd{
+    background-color: var(--color3);
+    color: var(--color2);
+}
+
+.odd:hover{
+    color: var(--color1);
 }
