@@ -21,6 +21,10 @@
     src: url(../assets/fonts/Margarine-Regular.ttf);
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 h1{
     font-family: 'WorkSans', sans-serif;
     font-size:  62px;
@@ -243,4 +247,20 @@ p{
     color: var(--color1);
     font-family: 'WorkSans', sans-serif;
     font-size: 16px;
+}
+
+#Education-and-languages{
+    background-color: var(--color1);
+    padding: 40px 90px;
+}
+
+.lang-list li{
+    padding: 5px;
+    color: var(--color3);
+    font-family: 'WorkSans', sans-serif;
+}
+
+.lang-list li::marker{
+    content: '➤ ';
+    color: var(--color3);
 }
