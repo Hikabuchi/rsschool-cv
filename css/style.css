@@ -27,6 +27,17 @@ h1{
     color: var(--color3);
 }
 
+h2{
+    font-family: 'Margarine', sans-serif;
+    font-size:  40px;
+    color: var(--color4);
+}
+
+p{
+    font-family: 'WorkSans', sans-serif;
+    color: var(--color3);
+}
+
 .body{
   display: flex;
   justify-content: center;
@@ -74,4 +85,16 @@ h1{
 
 .nav-list li a:hover{
     color: var(--color4);
+}
+
+#About{
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 90px;
+    background-color: var(--color2);
+}
+
+.bac-1{
+    height: 150px;
+    width: auto;
 }
