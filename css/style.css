@@ -1,0 +1,10 @@
+:root{
+    --color1:#5E503F;
+    --color2:#181613;
+    --color3:#EAE0D5;
+    --color4:#C6AC8F;
+}
+
+.container{
+    margin: auto;
+}
