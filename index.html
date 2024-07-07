@@ -48,11 +48,47 @@
                     <li class="odd">HTML5 & CSS3</li>
                     <li class="even">phpMyAdmin & MySql (basics)</li>
                     <li class="odd">Sql (basics)</li>
-                    <li class="even">React(basics)</li>
+                    <li class="even">React (basics)</li>
                     <li class="odd">PHP</li>
                     <li class="even">C#</li>
                     <li class="odd">Linux</li>
                 </ul>
+            </section>
+            <section id="Code">
+                <h2>Code</h2>
+                <pre class="code">
+                    <code>
+const checkboxes = document.querySelectorAll('.category-filters input[type="checkbox"]');
+const productCards = document.querySelectorAll('.product');
+
+checkboxes.forEach((checkbox) => {
+  checkbox.addEventListener('change', () => {
+    const selectedCategories = [];
+    let showAll = false;
+
+    checkboxes.forEach((checkbox) => {
+      if (checkbox.checked) {
+        if (checkbox.value === 'all') {
+          showAll = true;
+        } else {
+          selectedCategories.push(checkbox.value);
+        }
+      }
+    });
+
+    productCards.forEach((productCard) => {
+      if (showAll) {
+        productCard.style.display = 'block';
+      } else if (selectedCategories.includes(productCard.dataset.category)) {
+        productCard.style.display = 'block';
+      } else {
+        productCard.style.display = 'none';
+      }
+    });
+  });
+});
+                    </code>
+                </pre>
             </section>
         </main>
         <footer>

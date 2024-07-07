@@ -124,7 +124,7 @@ p{
  }
 
 .contact-list li::marker{
-    content: '► ';
+    content: '➤ ';
     color: var(--color3);
 }
 
@@ -138,9 +138,7 @@ p{
     font-family: 'WorkSans', sans-serif;
 }
 
-
 .even{
-    padding: 5px;
     color: var(--color3);
 }
 
@@ -149,15 +147,35 @@ p{
  }
 
 .skilst-list li::marker{
-    content: '► ';
+    content: '➤ ';
     color: var(--color3);
 }
 
+.skilst-list li{
+    padding: 5px 10px;
+}
+
 .odd{
-    background-color: var(--color3);
+    border-radius: 15px;
+    background-color: var(--color1);
     color: var(--color2);
 }
 
 .odd:hover{
-    color: var(--color1);
+    color: var(--color3);
+}
+
+#Code{
+    padding: 40px 90px;
+    background-color: var(--color2);
+}
+
+.code{
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 15px;
+    background-color: var(--color1);
+    font-family: 'WorkSans', sans-serif;
+    font-size: 16px;
+    color: var(--color3);
 }
