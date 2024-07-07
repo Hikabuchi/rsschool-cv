@@ -1,3 +1,9 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 :root{
     --color1:#5E503F;
     --color2:#181613;
@@ -5,6 +11,67 @@
     --color4:#C6AC8F;
 }
 
-.container{
-    margin: auto;
+@font-face {
+    font-family: 'WorkSans';
+    src: url(../assets/fonts/WorkSans-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: 'Margarine';
+    src: url(../assets/fonts/Margarine-Regular.ttf);
+}
+
+h1{
+    font-family: 'WorkSans', sans-serif;
+    font-size:  62px;
+    color: var(--color3);
+}
+
+.body{
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.container-profil{
+    display: flex;
+    align-items: center;
+    padding: 40px 90px;
+    background-color: var(--color1);
+}
+
+.img{
+    margin-right: 40px;
+    height: 243px;
+    width: 243px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.avatar{
+    height: 100%;
+}
+
+.nav-menu{
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px 90px;
+    background-color: var(--color2);
+}
+
+.nav-list{
+    display: flex;
+    list-style-type: none;
+    gap: 20px;
+}
+
+.nav-list li a{
+    font-family: 'WorkSans', sans-serif;
+    font-size: 16px;
+    color: var(--color3);
+    text-decoration: none;
+}
+
+.nav-list li a:hover{
+    color: var(--color4);
 }
