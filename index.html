@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>CV Demchuk Tanya</title>
+</head>
+<body class="body">
+    <div class="container">
+        <header>
+            <nav class="nav-menu">
+                <ul class="nav-list">
+                    <li><a href="#About">About</a></li>
+                    <li><a href="#Contacts">Contacts</a></li>
+                    <li><a href="#Skills">Skills</a></li>
+                    <li><a href="#Code">Code</a></li>
+                    <li><a href="#Portfolio">Portfolio</a></li>
+                    <li><a href="#Education-and-languages">Education and Languages</a></li>
+                </ul>
+            </nav>
+            <div class="container-profil">
+                <div class="img">
+                    <img src="./assets/img/mathew-schwartz-8rj4sz9YLCI-unsplash.jpg" alt="avatar" class="avatar">
+                </div>
+                <h1>Demchuk Tatyana</h1>
+            </div>
+        </header>
+        <main>
+            <section id="About">
+                <div>
+                    <h2>About me</h2>
+                    <p>I am 19 years old and I am studying for a full-stack<br> web developer and I want to consolidate<br> my basic knowledge in this course.</p>
+                </div>
+            </section>
+            <section id="Contacts">
+                <h2>Contacts</h2>
+                <ul class="contact-list">
+                    <li><a href="tel:+">Phone: +7(***) ***-**-**</a></li>
+                    <li><a href="https://t.me/hikabut">@hikabut</a></li>
+                </ul>
+            </section>
+            <section id="Skills">
+                <h2>Skills</h2>
+                <ul class="skilst-list">
+                    <li class="odd">Git & GitHub</li>
+                    <li class="even">Figma</li>
+                    <li class="odd">HTML5 & CSS3</li>
+                    <li class="even">phpMyAdmin & MySql (basics)</li>
+                    <li class="odd">Sql (basics)</li>
+                    <li class="even">React (basics)</li>
+                    <li class="odd">PHP</li>
+                    <li class="even">C#</li>
+                    <li class="odd">Linux</li>
+                </ul>
+            </section>
+            <section id="Code">
+                <h2>Code</h2>
+                <p>Simple filter by category</p>
+                <pre class="code">
+                    <code>
+const checkboxes = document.querySelectorAll('.category-filters input[type="checkbox"]');
+const productCards = document.querySelectorAll('.product');
+
+checkboxes.forEach((checkbox) => {
+  checkbox.addEventListener('change', () => {
+    const selectedCategories = [];
+    let showAll = false;
+
+    checkboxes.forEach((checkbox) => {
+      if (checkbox.checked) {
+        if (checkbox.value === 'all') {
+          showAll = true;
+        } else {
+          selectedCategories.push(checkbox.value);
+        }
+      }
+    });
+
+    productCards.forEach((productCard) => {
+      if (showAll) {
+        productCard.style.display = 'block';
+      } else if (selectedCategories.includes(productCard.dataset.category)) {
+        productCard.style.display = 'block';
+      } else {
+        productCard.style.display = 'none';
+      }
+    });
+  });
+});
+                    </code>
+                </pre>
+            </section>
+            <section id="Portfolio">
+                <h2>Portfolio</h2>
+                <div class="container-card-task">
+                    <div class="card">
+                        <img src="./assets/img/proj-1.PNG" alt="proj-1">
+                        <div class="card-content">
+                            <h3>An application with learning gamification for the it-cube Digital Education Center. The application is under development.</h3>
+                            <div class="but">
+                                <a href="https://hikabuchi.github.io/my-app/">See project</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="./assets/img/proj-2.PNG" alt="proj-2">
+                        <div class="card-content">
+                            <h3>Online store of collectible vinyl records</h3>
+                            <div class="but">
+                                <a href="https://www.behance.net/gallery/197553803/Vinyl-vaults">See project</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="./assets/img/proj-3.PNG" alt="proj-3">
+                        <div class="card-content">
+                            <h3>Website for Club 8-bit games</h3>
+                            <div class="but">
+                                <a href="https://www.behance.net/gallery/197298859/Club-8-bit-games">See project</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="Education-and-languages">
+                <h2>Education and Languages</h2>
+                <p>Education: <i>Khakass Polytechnic College, Specialty - "Information systems and programming", qualification - web developer. Year of graduation 2025</i></p>
+                <ul class="lang-list">
+                    <li>Russian- native speaker</li>
+                    <li>English- A2</li>
+                </ul>
+            </section>
+        </main>
+        <footer class="footer">
+            <div>
+                <a class="logo" href="https://github.com/Hikabuchi">
+                    <img src="./assets/img/github.png" alt="github">
+                </a>
+                <a class="logo" href="https://rs.school/courses/javascript-ru">
+                    <img src="./assets/img/rs-school-logo.svg" alt="github">
+                </a>
+            </div>
+            <p>2024</p>
+        </footer> 
+    </div>
+</body>
+</html>
